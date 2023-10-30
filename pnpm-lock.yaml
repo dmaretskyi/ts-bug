@@ -6,6 +6,12 @@ settings:
 
 importers:
 
+  .:
+    dependencies:
+      typescript:
+        specifier: 5.2.2
+        version: 5.2.2
+
   a:
     dependencies:
       '@ts-bug/b':
@@ -17,9 +23,6 @@ importers:
       react:
         specifier: ^18.2.0
         version: 18.2.0
-      typescript:
-        specifier: 5.2.2
-        version: 5.2.2
 
   b: {}
 
