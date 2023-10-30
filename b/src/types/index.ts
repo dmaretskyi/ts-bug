@@ -1,3 +1,3 @@
-import { type MosaicActiveType as NaturalMosaicActiveType } from './type'
+import { type ExportedType as NaturalExportedType } from './type'
 
-export type MosaicActiveType = NaturalMosaicActiveType;
+export type ExportedType = NaturalExportedType;

@@ -1,6 +1,6 @@
 set -e
 
-cd a
+cd b
 pnpm tsc
-cd ../b
+cd ../a
 pnpm tsc

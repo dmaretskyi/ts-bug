@@ -2,19 +2,15 @@
 // Copyright 2023 DXOS.org
 //
 
-import { forwardRef, type PropsWithChildren } from 'react';
+import { forwardRef, type PropsWithChildren } from "react";
 
-import { type MosaicActiveType } from '@ts-bug/b';
+import { type ExportedType } from "@ts-bug/b";
 
-
-export type SectionProps = PropsWithChildren<{
+export type Props = PropsWithChildren<{
   // Tile props.
-  active?: MosaicActiveType;
+  active?: ExportedType;
 }>;
 
-export const Section = forwardRef<HTMLLIElement, SectionProps>(
-  () => {
-    
-    return null
-  },
-);
+export const Component = forwardRef<HTMLLIElement, Props>(() => {
+  return null;
+});
