@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       typescript:
-        specifier: 5.2.2
-        version: 5.2.2
+        specifier: next
+        version: 5.3.0-dev.20231030
 
   a:
     dependencies:
@@ -66,8 +66,8 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /typescript@5.2.2:
-    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+  /typescript@5.3.0-dev.20231030:
+    resolution: {integrity: sha512-azWrF0lAiu8cBHNr6yq3RDkU/DtQScvT48ea3Ngq6oXJ/GPO0n96wCFSRQA5UbZlVVf3fAAqsUfvOdohRbrPVg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
