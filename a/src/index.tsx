@@ -1,7 +1,3 @@
-//
-// Copyright 2023 DXOS.org
-//
-
 import { forwardRef, type PropsWithChildren } from "react";
 
 import { type ExportedType } from "@ts-bug/b";
